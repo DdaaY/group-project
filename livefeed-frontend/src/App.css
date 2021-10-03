@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.whole {
+  height: 100%;
+  width: 100%;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.header p{
+  font-weight: 200;
+  line-height: 20%;
+  font-size: 0.9rem;
+}
+
+.logo-header {
+  font-size: 1.4rem;
+}
+
+/* Main Content */
+
+.main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.main2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+
+
+.page {
+  width: 80vw;
+  height: calc(90vh - 90px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup {
+  width: 30vw;
+  height: 60vh;
+}
+
+.list {
+  width: 60vw;
+  height: calc(90vh - 90px - 150px);
+  overflow: auto;
+}
+
+.list2 {
+  width: 80vw;
+  height: calc(90vh - 150px);
+  overflow: auto;
+}
+
+.list3 {
+  width: 80vw;
+  height: calc(90vh - 90px - 150px);
+  overflow: auto;
+}
+
+.centering {
+  text-align: center;
+}
+
+.centering2 {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+
+.errorClass { color: 'red' }
+
+/* Form */
+
+.textfield {
+  padding-top: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  font-size: 16px;
+}
+
+.options {
+  padding-bottom: 2vh;
+  font-size: 16px;
+}
+
+.button {
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  font-size: 16px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

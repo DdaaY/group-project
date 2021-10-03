@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.form-margin-top > * {
+  margin-top: 2vh !important;
+}
+
+.vertical-center-align {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-align {
+  display: flex;
+}
+
+.meeting-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 75%;
+}
+
+.meeting-header h1{
+  margin-right: 2vh;
+}
+
+.meeting-content{
+  display: flex;
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.meeting-content  {
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.meeting-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
